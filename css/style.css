@@ -1,26 +1,61 @@
 body {
 	font-family: sans-serif;
-	background: #f8c892;
+	background: brown;
+	color: grey;
 	/* background-image: url("../img/potty2.png");
 	background-size: 40px; */
+
 }
 h1 {
-	font-family: initial;
+	/* font-family: initial; */
 	color: #2a1262;
+	text-align: center;
 }
+
+header {
+	margin: 0 auto;
+	text-align: center;
+}
+
 blockquote{
 	 
 	color: #f7f1eb;
 	text-align: right;
 	font-size: large;
 	font-style: italic;
-/*	border: 5px double #e6a469; */
+	padding-right: 15px;
+}
+.container {
+	padding-top: 10px;
+
 }
 table {
 	text-align: center;
-	border: 5px double #2a1262;
-	border-spacing: 1px;
+	margin: 0 auto;
 }
-td {
-	padding: 5px;
+thead {
+	background-color: #cf8d4c;
 }
+.table td {
+	vertical-align: middle;
+	width: 12.5%;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #c3c979;
+
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #f3c999;
+}
+.table-bordered {
+    border: 1px solid #e9ecef;
+}
+footer {
+	background: #a8621d;
+	border: 1px solid #333333;
+	clear: both;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+
