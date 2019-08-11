@@ -1,14 +1,13 @@
 body {
 	font-family: sans-serif;
 	background: brown;
-	color: grey;
+	color: lightgray;
 	/* background-image: url("../img/potty2.png");
 	background-size: 40px; */
 
 }
 h1 {
 	/* font-family: initial; */
-	color: #2a1262;
 	text-align: center;
 }
 
@@ -17,8 +16,7 @@ header {
 	text-align: center;
 }
 
-blockquote{
-	 
+blockquote{	 
 	color: #f7f1eb;
 	text-align: right;
 	font-size: large;
@@ -41,11 +39,11 @@ thead {
 	width: 12.5%;
 }
 .table-striped tbody tr:nth-of-type(odd) {
-    background-color: #c3c979;
+    background-color: #467c46;
 
 }
 .table-striped tbody tr:nth-of-type(even) {
-    background-color: #f3c999;
+    background-color: #dca363;
 }
 .table-bordered {
     border: 1px solid #e9ecef;
@@ -54,7 +52,6 @@ footer {
 	background: #a8621d;
 	border: 1px solid #333333;
 	clear: both;
-	font-weight: bold;
 	text-align: center;
 	width: 100%;
 }
